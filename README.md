@@ -1,2 +1,2 @@
 # EaCoNiC
-Easy Copy Number, in Cohort !
+_**Ea**sy **Co**py **N**umber, **i**n **C**ohort !_
