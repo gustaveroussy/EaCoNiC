@@ -1,0 +1,21 @@
+Encoding: UTF-8
+Package: EaCoNiC
+Type: Package
+Title: EaCoN : Easy Copy Number, in Cohort !
+Version: 0.0.1
+Date: 2021-06-24
+Author: Bastien Job
+Authors@R: person("Bastien", "Job", email = "bastien.job@inserm.fr", role = c("aut", "cre"))
+Depends: R(>= 3.1.0)
+Imports:
+  EaCoN,
+  dplyr,
+  rtracklayer,
+  biovizBase
+Suggests:
+biocViews: Software
+BugReports: https://github.com/gustaveroussy/EaCoNiC/issues
+Description: An extension package to EaCoN, that brings cohort analysis of CNA profiles.
+License: MIT + file LICENSE
+LazyData: false
+Byte-Compile: yes
