@@ -2,16 +2,32 @@ Encoding: UTF-8
 Package: EaCoNiC
 Type: Package
 Title: EaCoN : Easy Copy Number, in Cohort !
-Version: 0.0.1
+Version: 0.0.2
 Date: 2021-06-24
 Author: Bastien Job
 Authors@R: person("Bastien", "Job", email = "bastien.job@inserm.fr", role = c("aut", "cre"))
 Depends: R(>= 3.1.0)
 Imports:
-  EaCoN,
+  amap,
+  BiocFileCache,
+  biovizBase,
+  blockseg,
+  circlize,
+  ComplexHeatmap,
   dplyr,
+  EaCoN,
+  GenomeInfoDb,
+  GenomicRanges,
+  graphics,
+  grDevices,
+  grid,
+  IRanges,
+  matrixStats,
   rtracklayer,
-  biovizBase
+  S4Vectors,
+  stats,
+  tibble,
+  utils
 Suggests:
 biocViews: Software
 BugReports: https://github.com/gustaveroussy/EaCoNiC/issues
